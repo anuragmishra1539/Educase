@@ -1,0 +1,80 @@
+.register{
+    margin: auto;
+    top: 0px;
+   left: 0px;
+   width: 375px;
+   height: 812px;
+
+   background: #F7F8F9 0% 0% no-repeat padding-box;
+   opacity: 1;
+   padding-left: 20px;
+   }
+.headings{
+
+width: 188px;
+height: 69px;
+text-align: left;
+font: normal normal medium 28px/36px Rubik;
+letter-spacing: 0px;
+color: #1D2226;
+opacity: 1;
+font-size: 28px;
+}
+
+.register-group {
+    position: relative;
+    left: 20px;
+    width: 335px;
+    height: 49px;
+    opacity: 1;
+    margin-top: 20px;
+}
+
+.register-group label {
+    position: absolute;
+    left: 18px;
+    width: fit-content;
+    height: 15px;
+    text-align: left;
+    font: normal normal normal 13px/17px Rubik;
+    letter-spacing: 0px;
+    color: #6C25FF;
+    opacity: 1;
+    margin-top: 2px;
+    background-color: #F7F8F9;
+    padding: 0px 5px 0px 5px;
+}
+
+.register-group input {
+    margin-top: 10px;
+    width: 335px;
+    height: 40px;
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    opacity: 1;
+    background-color: #F7F8F9;
+
+}
+.register-group input:focus + placeholder{
+    padding-left: 20px;
+}
+  button{
+    
+    width: 340px;
+    height: 46px;
+    border-radius: 6px;
+    opacity: 1;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    text-align: center;
+    font: normal normal medium 16px/17px Rubik;
+    letter-spacing: 0px;
+    cursor: pointer;
+    background-color: #6C25FF;
+}
+.box{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 280px;
+}
